@@ -16,13 +16,13 @@ const rows = [
 export default function Legalitas() {
   return (
     <LegalLayout
-      eyebrow="Legalitas Usaha · larisin.ai"
+      eyebrow="Legalitas Usaha · larisin ai"
       title="Informasi Legalitas & Profil Usaha"
-      subtitle="larisin.ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
+      subtitle="larisin ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
       updatedAt="1 Juni 2026"
     >
       <p className="legal-lead">
-        Platform larisin.ai dioperasikan oleh pelaku usaha yang terdaftar resmi di
+        Platform larisin ai dioperasikan oleh pelaku usaha yang terdaftar resmi di
         Indonesia melalui sistem OSS (Online Single Submission) Kementerian Investasi
         Republik Indonesia. Berikut data legalitas resmi badan usaha kami.
       </p>
@@ -37,7 +37,7 @@ export default function Legalitas() {
       </div>
 
       <p className="legal-note">
-        Seluruh layanan larisin.ai terintegrasi dengan WhatsApp Business API dan Instagram
+        Seluruh layanan larisin ai terintegrasi dengan WhatsApp Business API dan Instagram
         Messaging API dari Meta Platforms, Inc., serta tunduk pada Acceptable Use Policy
         Meta, WhatsApp Business Policy, dan Meta Platform Terms.
       </p>

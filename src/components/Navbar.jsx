@@ -45,7 +45,7 @@ export default function Navbar() {
     <header className="nav">
       <div className="wrap nav-inner">
         <Link to="/#beranda" className="logo" onClick={() => setOpen(false)}>
-          <img src="/larisin-logo.png" alt="larisin.ai" />
+          <img src="/larisin-logo.png" alt="larisin ai" />
         </Link>
 
         <nav className={`nav-menu${open ? ' open' : ''}`}>

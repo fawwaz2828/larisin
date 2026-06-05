@@ -3,8 +3,8 @@ import LegalLayout, { Pasal } from '../components/LegalLayout.jsx'
 export default function KebijakanPrivasi() {
   return (
     <LegalLayout
-      title="KEBIJAKAN PRIVASI — Larisin.ai"
-      subtitle="larisin.ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
+      title="KEBIJAKAN PRIVASI — Larisin ai"
+      subtitle="larisin ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
       updatedAt="1 Juni 2026"
     >
       <Pasal number={1} title="IDENTITAS PENGELOLA DATA">

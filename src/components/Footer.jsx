@@ -15,8 +15,8 @@ export default function Footer() {
     const email = new FormData(e.currentTarget).get('email')?.toString().trim()
     if (!email) return
     window.location.href =
-      `mailto:${KONTAK.email}?subject=${encodeURIComponent('Langganan Newsletter larisin.ai')}` +
-      `&body=${encodeURIComponent(`Halo, saya ingin berlangganan update dari larisin.ai. Email saya: ${email}`)}`
+      `mailto:${KONTAK.email}?subject=${encodeURIComponent('Langganan Newsletter larisin ai')}` +
+      `&body=${encodeURIComponent(`Halo, saya ingin berlangganan update dari larisin ai. Email saya: ${email}`)}`
     e.currentTarget.reset()
   }
 
@@ -88,7 +88,7 @@ export default function Footer() {
                 href="https://instagram.com/larisin.ai"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram larisin.ai"
+                aria-label="Instagram larisin ai"
               >
                 <IconInstagram />
               </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 href={WA_KONSULTASI}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp larisin.ai"
+                aria-label="WhatsApp larisin ai"
               >
                 <IconMessage />
               </a>
@@ -105,7 +105,7 @@ export default function Footer() {
         </div>
 
         <p className="ft-disc">
-          larisin.ai adalah penyedia layanan yang terintegrasi dengan WhatsApp Business API
+          larisin ai adalah penyedia layanan yang terintegrasi dengan WhatsApp Business API
           dan Instagram Messaging API dari Meta Platforms, Inc. Seluruh layanan tunduk pada
           Acceptable Use Policy Meta, WhatsApp Business Policy, dan Meta Platform Terms.
         </p>
@@ -114,7 +114,7 @@ export default function Footer() {
 
         <div className="ft-bottom">
           <p className="ft-copy">
-            © 2026 larisin.ai — RIFANA. Semua Hak Dilindungi Undang-Undang.
+            © 2026 larisin ai — RIFANA. Semua Hak Dilindungi Undang-Undang.
           </p>
           <div className="ft-bottom-links">
             <Link to="/kebijakan-privasi">Kebijakan Privasi</Link>

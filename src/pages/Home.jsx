@@ -30,8 +30,8 @@ const problems = [
 
 const faqs = [
   [
-    'Apakah itu larisin.ai?',
-    'larisin.ai adalah platform Asisten AI Otomatis yang membantu bisnis Anda membalas pesan pelanggan secara otomatis melalui WhatsApp Business API dan Instagram resmi dari Meta. AI kami dilatih menggunakan data produk dan SOP bisnis Anda sendiri, sehingga balasannya terasa natural dan relevan — bekerja 24 jam tanpa hari libur, tanpa perlu menambah tim CS.',
+    'Apakah itu larisin ai?',
+    'larisin ai adalah platform Asisten AI Otomatis yang membantu bisnis Anda membalas pesan pelanggan secara otomatis melalui WhatsApp Business API dan Instagram resmi dari Meta. AI kami dilatih menggunakan data produk dan SOP bisnis Anda sendiri, sehingga balasannya terasa natural dan relevan — bekerja 24 jam tanpa hari libur, tanpa perlu menambah tim CS.',
   ],
   [
     'Apakah saya butuh nomor WhatsApp baru?',
@@ -39,11 +39,11 @@ const faqs = [
   ],
   [
     'Apakah aman dan tidak akan diblokir oleh WhatsApp?',
-    '100% aman. larisin.ai menggunakan WhatsApp Business API resmi Meta Platforms, Inc. — bukan aplikasi modifikasi atau pihak ketiga tidak resmi. Akun Anda terlindungi dari risiko pemblokiran yang sering terjadi pada pengguna aplikasi WA tidak resmi. Seluruh aktivitas kami mematuhi WhatsApp Business Policy yang berlaku.',
+    '100% aman. larisin ai menggunakan WhatsApp Business API resmi Meta Platforms, Inc. — bukan aplikasi modifikasi atau pihak ketiga tidak resmi. Akun Anda terlindungi dari risiko pemblokiran yang sering terjadi pada pengguna aplikasi WA tidak resmi. Seluruh aktivitas kami mematuhi WhatsApp Business Policy yang berlaku.',
   ],
   [
-    'Bisakah saya mengakses dashboard larisin.ai lewat HP?',
-    'Bisa! Dashboard larisin.ai dirancang responsif dan dapat diakses melalui browser di HP, tablet, maupun komputer kapan saja dan di mana saja. Anda bisa memantau laporan chat, mengatur alur percakapan AI, dan mengecek performa bisnis langsung dari genggaman tangan Anda.',
+    'Bisakah saya mengakses dashboard larisin ai lewat HP?',
+    'Bisa! Dashboard larisin ai dirancang responsif dan dapat diakses melalui browser di HP, tablet, maupun komputer kapan saja dan di mana saja. Anda bisa memantau laporan chat, mengatur alur percakapan AI, dan mengecek performa bisnis langsung dari genggaman tangan Anda.',
   ],
   [
     'Saya sudah punya nomor WhatsApp lama yang aktif, bagaimana caranya?',
@@ -54,7 +54,7 @@ const faqs = [
     'Untuk Paket LITE berbasis Instagram, sistem bisa aktif dalam 15–30 menit setelah setup selesai. Untuk Paket PRO yang menggunakan WhatsApp Business API, proses verifikasi nomor dari Meta membutuhkan 1–3 hari kerja. Khusus pengguna Paket PRO, tim kami menyediakan sesi onboarding 1-on-1 selama 60 menit untuk memastikan AI Anda siap melayani pelanggan dengan sempurna.',
   ],
   [
-    'Apakah AI larisin.ai bisa memahami Bahasa Indonesia dengan baik?',
+    'Apakah AI larisin ai bisa memahami Bahasa Indonesia dengan baik?',
     'Ya, sangat baik. AI kami mendukung Bahasa Indonesia formal, semi-formal, hingga bahasa gaul dan singkatan yang umum digunakan pelanggan sehari-hari seperti "gan", "kak", "min", "mau tanya dong", dan sebagainya. AI dilatih khusus untuk konteks pasar Indonesia sehingga percakapannya terasa natural, hangat, dan tidak kaku seperti chatbot konvensional.',
   ],
   [
@@ -63,10 +63,10 @@ const faqs = [
   ],
   [
     'Apakah data percakapan pelanggan saya aman dan tidak disalahgunakan?',
-    'Keamanan data Anda adalah prioritas utama kami. Seluruh data percakapan dienkripsi dan hanya dapat diakses oleh akun bisnis Anda sendiri. larisin.ai tidak pernah menjual, menyewakan, atau membagikan data percakapan kepada pihak ketiga mana pun untuk tujuan iklan atau komersial. Kami beroperasi sesuai Undang-Undang Pelindungan Data Pribadi (UU PDP) No. 27 Tahun 2022 dan kebijakan privasi Meta Platforms, Inc. Baca selengkapnya di halaman Kebijakan Privasi kami.',
+    'Keamanan data Anda adalah prioritas utama kami. Seluruh data percakapan dienkripsi dan hanya dapat diakses oleh akun bisnis Anda sendiri. larisin ai tidak pernah menjual, menyewakan, atau membagikan data percakapan kepada pihak ketiga mana pun untuk tujuan iklan atau komersial. Kami beroperasi sesuai Undang-Undang Pelindungan Data Pribadi (UU PDP) No. 27 Tahun 2022 dan kebijakan privasi Meta Platforms, Inc. Baca selengkapnya di halaman Kebijakan Privasi kami.',
   ],
   [
-    'Bagaimana cara memulai dan berlangganan larisin.ai?',
+    'Bagaimana cara memulai dan berlangganan larisin ai?',
     'Sangat mudah! Cukup klik tombol "Konsultasi Gratis" di halaman ini, dan tim kami akan menghubungi Anda via WhatsApp untuk memahami kebutuhan bisnis Anda. Kami akan merekomendasikan paket yang paling sesuai, memandu proses pendaftaran, dan memastikan sistem AI Anda aktif secepat mungkin. Tidak ada kontrak jangka panjang — Anda bebas upgrade, downgrade, atau berhenti berlangganan kapan saja.',
   ],
 ]
@@ -240,7 +240,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-mascot">
-              <img src="/laris.png" alt="Maskot larisin.ai" />
+              <img src="/laris.png" alt="Maskot larisin ai" />
             </div>
           </div>
         </div>
@@ -397,7 +397,7 @@ export default function Home() {
             <div className="price-card pro">
               <div className="popular"><IconFlame /> Paling Populer</div>
               <div className="tier">PAKET PRO</div>
-              <div className="tier-sub">Dipilih oleh 70% pengguna aktif larisin.ai</div>
+              <div className="tier-sub">Dipilih oleh 70% pengguna aktif larisin ai</div>
               <div className="amount">
                 Rp 400.000<span>/bulan</span>
               </div>
@@ -420,7 +420,7 @@ export default function Home() {
                 <li><span className="mk yes"><IconCheck /></span> Alokasi chat ke admin manusia (jika komplain rumit)</li>
                 <li><span className="mk yes"><IconCheck /></span> Dashboard analitik lengkap + ekspor laporan CSV</li>
                 <li><span className="mk yes"><IconCheck /></span> Dukungan CS prioritas via WhatsApp (respons maks. 4 jam)</li>
-                <li><span className="mk yes"><IconCheck /></span> Sesi onboarding 1-on-1 dengan tim larisin.ai (60 menit)</li>
+                <li><span className="mk yes"><IconCheck /></span> Sesi onboarding 1-on-1 dengan tim larisin ai (60 menit)</li>
               </ul>
             </div>
           </div>
@@ -444,12 +444,12 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head">
             <Eyebrow>Legalitas &amp; Kontak</Eyebrow>
-            <h2>Tentang Larisin.ai</h2>
+            <h2>Tentang Larisin ai</h2>
           </div>
           <div className="about-grid">
             <div className="about-box">
               <p>
-                larisin.ai adalah platform AI yang membantu bisnis Indonesia mengotomasi
+                larisin ai adalah platform AI yang membantu bisnis Indonesia mengotomasi
                 layanan pelanggan lewat WhatsApp Business API &amp; Instagram Messaging API
                 resmi dari Meta Platforms, Inc.
               </p>
@@ -463,7 +463,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="about-photo">
-              <img src="/verified.png" alt="larisin.ai terverifikasi resmi Meta" />
+              <img src="/verified.png" alt="larisin ai terverifikasi resmi Meta" />
               <Seal id="sp-photo" text="RESMI • TERVERIFIKASI • " fontSize={9.5} check />
             </div>
           </div>
@@ -482,7 +482,7 @@ export default function Home() {
             <h2>Ada Pertanyaan? Kami Siap Menjawab!</h2>
             <p>
               Temukan jawaban atas pertanyaan yang paling sering ditanyakan seputar
-              layanan larisin.ai.
+              layanan larisin ai.
             </p>
           </div>
           <div className="faq-list">

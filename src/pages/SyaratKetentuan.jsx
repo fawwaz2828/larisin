@@ -3,13 +3,13 @@ import LegalLayout, { Pasal } from '../components/LegalLayout.jsx'
 export default function SyaratKetentuan() {
   return (
     <LegalLayout
-      title="SYARAT & KETENTUAN LAYANAN — larisin.ai"
-      subtitle="larisin.ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
+      title="SYARAT & KETENTUAN LAYANAN — larisin ai"
+      subtitle="larisin ai | Pelaku Usaha: RIFANA | NIB: 0106260000144"
       updatedAt="1 Juni 2026"
     >
       <Pasal number={1} title="PENERIMAAN KETENTUAN">
         <p>
-          Dengan mendaftar dan menggunakan layanan larisin.ai, Anda dianggap telah membaca,
+          Dengan mendaftar dan menggunakan layanan larisin ai, Anda dianggap telah membaca,
           memahami, dan menyetujui seluruh Syarat & Ketentuan ini. Apabila Anda tidak
           menyetujui, mohon untuk tidak menggunakan layanan kami.
         </p>
@@ -17,7 +17,7 @@ export default function SyaratKetentuan() {
 
       <Pasal number={2} title="DESKRIPSI LAYANAN">
         <p>
-          larisin.ai adalah platform berbasis kecerdasan buatan (AI) yang terintegrasi
+          larisin ai adalah platform berbasis kecerdasan buatan (AI) yang terintegrasi
           dengan WhatsApp Business API dan Instagram Messaging API. Layanan kami mencakup
           integrasi nomor WhatsApp bisnis, otomasi respons percakapan, pengiriman pesan
           massal, serta dashboard analitik.
@@ -63,14 +63,14 @@ export default function SyaratKetentuan() {
 
       <Pasal number={7} title="PENGHENTIAN LAYANAN">
         <p>
-          larisin.ai berhak menghentikan atau menangguhkan akses pengguna apabila terjadi
+          larisin ai berhak menghentikan atau menangguhkan akses pengguna apabila terjadi
           pelanggaran terhadap Syarat & Ketentuan ini, pelanggaran kebijakan Meta, atau
           adanya indikasi aktivitas penipuan maupun ilegal.
         </p>
       </Pasal>
 
       <Pasal number={8} title="BATASAN TANGGUNG JAWAB">
-        <p>larisin.ai tidak bertanggung jawab atas:</p>
+        <p>larisin ai tidak bertanggung jawab atas:</p>
         <ul>
           <li>Gangguan layanan (downtime) yang berasal dari pihak Meta.</li>
           <li>Konten pesan yang dibuat dan dikirim oleh pengguna.</li>
@@ -80,7 +80,7 @@ export default function SyaratKetentuan() {
 
       <Pasal number={9} title="HUBUNGAN DENGAN META">
         <p>
-          larisin.ai merupakan entitas independen dan tidak berafiliasi dengan Meta
+          larisin ai merupakan entitas independen dan tidak berafiliasi dengan Meta
           Platforms, Inc. WhatsApp® dan Instagram® adalah merek dagang terdaftar milik Meta
           Platforms, Inc.
         </p>

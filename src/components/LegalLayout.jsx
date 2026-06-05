@@ -5,7 +5,7 @@ export default function LegalLayout({
   title,
   subtitle,
   updatedAt,
-  eyebrow = 'Dokumen Legal · larisin.ai',
+  eyebrow = 'Dokumen Legal · larisin ai',
   children,
 }) {
   return (
