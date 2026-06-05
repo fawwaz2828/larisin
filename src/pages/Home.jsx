@@ -303,22 +303,25 @@ export default function Home() {
                 <img src="/dashboard.png" alt="Tim memakai dashboard" />
               </div>
               <div className="sx-card">
-                <h3>Integrasi Resmi WhatsApp &amp; Instagram</h3>
+                <h3>Integrasi Resmi WhatsApp API &amp; Instagram</h3>
                 <p>
-                  Terhubung resmi via Meta API — aman, anti-blokir, dan dapat centang hijau
-                  yang menambah kepercayaan pelanggan.
+                  Terhubung langsung ke nomor bisnis Anda melalui jalur resmi Meta
+                  Platforms, Inc. — aman, stabil, dan tidak melanggar kebijakan platform.
+                  Nomor WhatsApp Anda mendapat centang hijau (verified business) yang
+                  meningkatkan kepercayaan pelanggan. Tidak ada risiko pemblokiran akun yang
+                  sering terjadi pada aplikasi pihak ketiga tidak resmi.
                 </p>
-                <span className="more">Selengkapnya <IconArrowRight /></span>
               </div>
             </div>
             <div className="sx-col">
               <div className="sx-card lime">
-                <h3>Balasan Otomatis AI yang Manusiawi</h3>
+                <h3>Balasan Otomatis AI yang Terasa Manusiawi</h3>
                 <p>
-                  AI paham konteks &amp; Bahasa Indonesia formal maupun santai, lalu oper ke
-                  admin manusia saat dibutuhkan — 24 jam penuh tanpa lelah.
+                  AI kami memahami konteks percakapan, bukan sekadar mencocokkan kata kunci.
+                  Mendukung Bahasa Indonesia formal maupun santai. Jika terdeteksi pelanggan
+                  marah atau bertanya hal kompleks, AI otomatis meneruskan ke agen manusia
+                  Anda — tanpa pelanggan menunggu lama.
                 </p>
-                <span className="more">Selengkapnya <IconArrowRight /></span>
               </div>
               <div className="sx-img lime-b">
                 <img src="/whatsapp.png" alt="Percakapan AI WhatsApp" />
@@ -328,18 +331,19 @@ export default function Home() {
               <div className="sx-card">
                 <h3>Manajemen Order &amp; Konfirmasi Otomatis</h3>
                 <p>
-                  Terima pesanan, panduan pembayaran, hingga update pengiriman — semua
-                  otomatis tanpa kerja manual.
+                  Dari penerimaan pesanan, panduan pembayaran, hingga update status
+                  pengiriman — semua dikirimkan otomatis ke pelanggan tanpa campur tangan
+                  manual. Hemat waktu tim Anda untuk hal-hal yang benar-benar penting bagi
+                  pertumbuhan bisnis.
                 </p>
-                <span className="more">Selengkapnya <IconArrowRight /></span>
               </div>
               <div className="sx-card">
-                <h3>Dashboard Laporan &amp; Analitik</h3>
+                <h3>Dashboard Laporan &amp; Analitik Bisnis</h3>
                 <p>
-                  Pantau volume chat, tingkat respons AI, dan konversi — semua dari satu
-                  dasbor yang intuitif.
+                  Pantau volume chat harian, tingkat respons AI, tren pertanyaan pelanggan,
+                  dan performa konversi — semua dari satu dasbor yang intuitif. Ambil
+                  keputusan bisnis berdasarkan data nyata, bukan sekadar intuisi.
                 </p>
-                <span className="more">Selengkapnya <IconArrowRight /></span>
               </div>
             </div>
           </div>
