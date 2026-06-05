@@ -78,7 +78,7 @@ header.nav{position:fixed;top:0;left:0;right:0;z-index:60;padding:12px 0;backgro
 /* standalone CTA on the right */
 .nav-inner > .btn{padding:12px 18px 12px 24px;font-size:14.5px;flex:0 0 auto;}
 
-.nav-toggle{display:none;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:20px;cursor:pointer;align-items:center;justify-content:center;}
+.nav-toggle{display:none;width:56px;height:44px;border-radius:13px;border:1.5px solid var(--line);background:#fff;font-size:20px;cursor:pointer;align-items:center;justify-content:center;}
 
 /* ---------- HERO ----------
    Pulled up under the floating navbar (negative margin cancels the 84px
