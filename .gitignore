@@ -4,8 +4,6 @@ dist-ssr
 *.local
 .vercel
 
-# Claude
-.claude
 
 # Editor
 .vscode/*
