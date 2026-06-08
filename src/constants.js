@@ -17,7 +17,7 @@ export const WA_FAQ =
   `${WA_BASE}?text=Halo%20Admin%20Larisin.ai%2C%20saya%20punya%20pertanyaan%20tentang%20layanan`
 
 export const KONTAK = {
-  email: 'larisin.ai.id@gmail.com',
+  email: 'halo@larisinai.id',
   whatsapp: '+62 858-7756-5884',
   instagram: '@larisin.ai',
   website: 'https://larisinai.berdu.pw',
