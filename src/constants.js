@@ -13,6 +13,9 @@ export const WA_LITE =
 export const WA_PRO =
   `${WA_BASE}?text=Halo%20Admin%20Larisin.ai%2C%20saya%20tertarik%20Paket%20PRO`
 
+export const WA_ENTERPRISE =
+    `${WA_BASE}?text=Halo%20Admin%20Larisin.ai%2C%20saya%20tertarik%20Paket%20ENTERPRISE`
+  
 export const WA_FAQ =
   `${WA_BASE}?text=Halo%20Admin%20Larisin.ai%2C%20saya%20punya%20pertanyaan%20tentang%20layanan`
 
