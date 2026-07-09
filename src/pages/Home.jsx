@@ -51,7 +51,7 @@ const faqs = [
   ],
   [
     'Berapa lama proses setup hingga sistem AI aktif?',
-    'Untuk Paket LITE berbasis Instagram, sistem bisa aktif dalam 15–30 menit setelah setup selesai. Untuk Paket PRO yang menggunakan WhatsApp Business API, proses verifikasi nomor dari Meta membutuhkan 1–3 hari kerja. Khusus pengguna Paket PRO, tim kami menyediakan sesi onboarding 1-on-1 selama 60 menit untuk memastikan AI Anda siap melayani pelanggan dengan sempurna.',
+        'Untuk semua paket, proses verifikasi nomor WhatsApp Business API dari Meta membutuhkan waktu sekitar 1–3 hari kerja setelah data bisnis Anda kami daftarkan. Khusus pengguna Paket Enterprise, tim kami menyediakan sesi onboarding 1-on-1 selama 60 menit untuk memastikan AI Anda siap melayani pelanggan dengan sempurna.',
   ],
   [
     'Apakah AI larisin ai bisa memahami Bahasa Indonesia dengan baik?',
