@@ -1,5 +1,5 @@
 // Centralized WhatsApp links so every CTA stays consistent.
-export const WA_BASE = 'https://wa.me/6285877565884'
+export const WA_BASE = 'https://wa.me/628139219954'
 
 export const WA_KONSULTASI =
   `${WA_BASE}?text=Halo%20Admin%20Larisin.ai%2C%20saya%20ingin%20konsultasi`
@@ -18,7 +18,7 @@ export const WA_FAQ =
 
 export const KONTAK = {
   email: 'halo@larisinai.id',
-  whatsapp: '+62 858-7756-5884',
+    whatsapp: '+62 813-9219-954',
   instagram: '@larisin.ai',
   website: 'https://larisinai.berdu.pw',
 }
