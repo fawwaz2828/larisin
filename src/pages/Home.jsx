@@ -19,6 +19,7 @@ import {
   WA_KONSULTASI_GRATIS,
   WA_LITE,
   WA_PRO,
+    WA_ENTERPRISE,
   WA_FAQ,
 } from '../constants.js'
 
@@ -429,7 +430,7 @@ Rp 699.999<span>/bulan</span>
 </div>
 <div className="yearly">atau Rp 7.699.989/tahun</div>
 <a
-href={WA_PRO}
+href={WA_ENTERPRISE}
 target="_blank"
 rel="noopener noreferrer"
 className="btn btn-outline"
