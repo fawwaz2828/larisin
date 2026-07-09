@@ -367,71 +367,87 @@ export default function Home() {
             <p>Tanpa kontrak jangka panjang. Tanpa biaya tersembunyi.</p>
           </div>
           <div className="price-grid">
-            {/* LITE */}
-            <div className="price-card">
-              <div className="tier">PAKET LITE</div>
-              <div className="tier-sub">Ideal untuk UMKM &amp; toko online skala kecil</div>
-              <div className="amount">
-                Rp 200.000<span>/bulan</span>
-              </div>
-              <div className="yearly">atau Rp 2.000.000/tahun</div>
-              <a
-                href={WA_LITE}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline"
-              >
-                Mulai Paket Lite <span className="arr"><IconArrowRight /></span>
-              </a>
-              <hr className="price-divider" />
-              <ul className="feat-list">
-                <li><span className="mk yes"><IconCheck /></span> Integrasi 1 Akun Instagram Resmi (Meta API)</li>
-                <li><span className="mk yes"><IconCheck /></span> Respons Otomatis AI berdasarkan FAQ &amp; katalog toko</li>
-                <li><span className="mk yes"><IconCheck /></span> Asisten AI siaga 24 jam / 7 hari</li>
-                <li><span className="mk yes"><IconCheck /></span> Hingga 500 sesi percakapan per bulan</li>
-                <li><span className="mk yes"><IconCheck /></span> Dashboard laporan chat sederhana</li>
-                <li><span className="mk yes"><IconCheck /></span> Panduan setup mandiri (video tutorial tersedia)</li>
-                <li><span className="mk yes"><IconCheck /></span> Dukungan teknis via email (respons maks. 2×24 jam)</li>
-                <li className="muted"><span className="mk no"><IconX /></span> WhatsApp Business API resmi belum termasuk</li>
-                <li className="muted"><span className="mk no"><IconX /></span> Broadcast pesan massal belum tersedia</li>
-                <li className="muted"><span className="mk no"><IconX /></span> Manajemen order otomatis belum tersedia</li>
-              </ul>
-            </div>
-            {/* PRO */}
-            <div className="price-card pro">
-              <div className="popular"><IconFlame /> Paling Populer</div>
-              <div className="tier">PAKET PRO</div>
-              <div className="tier-sub">Dipilih oleh 70% pengguna aktif larisin ai</div>
-              <div className="amount">
-                Rp 400.000<span>/bulan</span>
-              </div>
-              <div className="yearly">atau Rp 4.000.000/tahun</div>
-              <a
-                href={WA_PRO}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-lime"
-              >
-                Mulai Paket Pro <span className="arr"><IconArrowRight /></span>
-              </a>
-              <hr className="price-divider" />
-              <ul className="feat-list">
-                <li><span className="mk yes"><IconCheck /></span> Semua fitur Paket LITE, ditambah:</li>
-                <li><span className="mk yes"><IconCheck /></span> Integrasi 1 Nomor WhatsApp Business API Resmi</li>
-                <li><span className="mk yes"><IconCheck /></span> Hingga 3.000 sesi percakapan per bulan</li>
-                <li><span className="mk yes"><IconCheck /></span> AI Kontekstual — belajar dari SOP &amp; katalog produk Anda</li>
-                <li><span className="mk yes"><IconCheck /></span> Broadcast Pesan Massal Resmi (Anti-Blokir, maks. 3.000 kontak/bln)</li>
-                <li><span className="mk yes"><IconCheck /></span> Alokasi chat ke admin manusia (jika komplain rumit)</li>
-                <li><span className="mk yes"><IconCheck /></span> Dashboard analitik lengkap + ekspor laporan CSV</li>
-                <li><span className="mk yes"><IconCheck /></span> Dukungan CS prioritas via WhatsApp (respons maks. 4 jam)</li>
-                <li><span className="mk yes"><IconCheck /></span> Sesi onboarding 1-on-1 dengan tim larisin ai (60 menit)</li>
-              </ul>
-            </div>
-          </div>
-          <div className="price-note">
+{/* STARTER */}
+<div className="price-card">
+<div className="tier">PAKET STARTER</div>
+<div className="tier-sub">Ideal untuk UMKM &amp; toko online skala kecil</div>
+<div className="amount">
+Rp 179.000<span>/bulan</span>
+</div>
+<a
+href={WA_LITE}
+target="_blank"
+rel="noopener noreferrer"
+className="btn btn-outline"
+>
+Mulai Paket Starter <span className="arr"><IconArrowRight /></span>
+</a>
+<hr className="price-divider" />
+<ul className="feat-list">
+<li><span className="mk yes"><IconCheck /></span> Integrasi 1 Nomor WhatsApp Business API Resmi</li>
+<li><span className="mk yes"><IconCheck /></span> Respons otomatis AI berdasarkan FAQ &amp; katalog toko</li>
+<li><span className="mk yes"><IconCheck /></span> Asisten AI siaga 24 jam / 7 hari</li>
+<li><span className="mk yes"><IconCheck /></span> Hingga 1.000 sesi percakapan per bulan</li>
+<li><span className="mk yes"><IconCheck /></span> Pengalihan otomatis ke admin manusia untuk komplain/pertanyaan rumit</li>
+<li><span className="mk yes"><IconCheck /></span> Dashboard laporan chat sederhana</li>
+<li><span className="mk yes"><IconCheck /></span> Panduan setup mandiri (video tutorial tersedia)</li>
+</ul>
+</div>
+{/* PRO */}
+<div className="price-card pro">
+<div className="popular"><IconFlame /> Paling Populer</div>
+<div className="tier">PAKET PRO</div>
+<div className="tier-sub">Rekomendasi kami untuk hasil maksimal</div>
+<div className="amount">
+Rp 349.000<span>/bulan</span>
+</div>
+<a
+href={WA_PRO}
+target="_blank"
+rel="noopener noreferrer"
+className="btn btn-lime"
+>
+Mulai Paket Pro <span className="arr"><IconArrowRight /></span>
+</a>
+<hr className="price-divider" />
+<ul className="feat-list">
+<li><span className="mk yes"><IconCheck /></span> Semua fitur Starter, ditambah:</li>
+<li><span className="mk yes"><IconCheck /></span> Hingga 3.000 sesi percakapan per bulan</li>
+<li><span className="mk yes"><IconCheck /></span> AI aktif menggiring pelanggan sampai ke link pemesanan (closing otomatis)</li>
+<li><span className="mk yes"><IconCheck /></span> Dashboard analitik lengkap + ekspor laporan CSV</li>
+<li><span className="mk yes"><IconCheck /></span> Dukungan CS prioritas via WhatsApp (respons maks. 4 jam)</li>
+</ul>
+</div>
+{/* ENTERPRISE */}
+<div className="price-card">
+<div className="tier">PAKET ENTERPRISE</div>
+<div className="tier-sub">Untuk bisnis dengan volume chat tinggi</div>
+<div className="amount">
+Rp 699.999<span>/bulan</span>
+</div>
+<a
+href={WA_PRO}
+target="_blank"
+rel="noopener noreferrer"
+className="btn btn-outline"
+>
+Mulai Paket Enterprise <span className="arr"><IconArrowRight /></span>
+</a>
+<hr className="price-divider" />
+<ul className="feat-list">
+<li><span className="mk yes"><IconCheck /></span> Semua fitur Pro, ditambah:</li>
+<li><span className="mk yes"><IconCheck /></span> Hingga 8.000 sesi percakapan per bulan</li>
+<li><span className="mk yes"><IconCheck /></span> Gaya bahasa AI disesuaikan dengan ciri khas brand Anda</li>
+<li><span className="mk yes"><IconCheck /></span> Broadcast Pesan Massal Resmi (Anti-Blokir)</li>
+<li><span className="mk yes"><IconCheck /></span> Laporan rekapitulasi penjualan bulanan otomatis</li>
+<li><span className="mk yes"><IconCheck /></span> Sesi onboarding &amp; setup 1-on-1 bersama tim</li>
+</ul>
+</div>
+</div>
+<div className="price-note">
             <IconGift />
             <span>
-              Semua paket tersedia masa uji coba gratis 14 hari — tanpa kartu kredit,
+              Konsultasi gratis dulu sebelum mulai, kami bantu pilihkan paket yang paling pas untuk bisnis Anda  —
               batalkan kapan saja.
             </span>
           </div>
