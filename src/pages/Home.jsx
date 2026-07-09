@@ -374,6 +374,7 @@ export default function Home() {
 <div className="amount">
 Rp 179.000<span>/bulan</span>
 </div>
+<div className="yearly">atau Rp 1.969.000/tahun</div>
 <a
 href={WA_LITE}
 target="_blank"
@@ -401,6 +402,7 @@ Mulai Paket Starter <span className="arr"><IconArrowRight /></span>
 <div className="amount">
 Rp 349.000<span>/bulan</span>
 </div>
+<div className="yearly">atau Rp 3.839.000/tahun</div>
 <a
 href={WA_PRO}
 target="_blank"
@@ -425,6 +427,7 @@ Mulai Paket Pro <span className="arr"><IconArrowRight /></span>
 <div className="amount">
 Rp 699.999<span>/bulan</span>
 </div>
+<div className="yearly">atau Rp 7.699.989/tahun</div>
 <a
 href={WA_PRO}
 target="_blank"
